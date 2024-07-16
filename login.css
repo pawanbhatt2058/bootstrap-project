@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+  /*   background:blueviolet; */
+     background:url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881320.jpg?size=626&ext=jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center; 
+    
+  }
+  .wrapper{
+    width: 420px;
+    color:white;
+  /*   background:grey; */
+     background:transparent; 
+    border-radius:15px;
+    padding: 30px;
+    border:2px solid rgba(255,255,255,0.2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  .wrapper h1{
+    text-align:center;
+    font-size:36px
+  }
+  .wrapper .input-box{
+    position:relative;
+    height: 50px;;
+  /*   width: 50px; */
+  /*   background:salmon; */
+    margin:30px,0;
+    padding: 40px;
+  }
+  .input-box input{
+  /*   padding: 20px; */
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255,255,255,0.2);
+    border-radius:40px;
+    font-size:16px;
+    padding: 20px 45px 20px 20px;
+    color:white;
+  }
+  .input-box input::placeholder{
+    
+    color:white;
+  }
+  .input-box i{
+    position:absolute;
+     right:50px; 
+    top:75%;
+    transform:translateY(-75%);
+  }
+  .wrapper .remember-forget{
+    display:flex;
+    justify-content: space-between;
+    font-size:15px;
+    margin:30px;
+  }
+  .remember-forget label input{
+    accent-color:white;
+    margin-right: 5px;
+  }
+  .remember-forget a{
+    color:white;
+    text-decoration:none;
+  }
+  .remember-forget a:hover{
+    text-decoration:underline;
+  }
+  .wrapper .btn{
+    width: 90%;
+    height: 45px;
+    border:none;
+    outline:none;
+    margin-left: 20px;
+  /*   border:2px solid rgba(255,255,255,0.2);  */
+    border-radius:40px;
+    font-size:16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-weight:600;
+    color:white;
+    background:transparent;
+    border:2px solid grey;
+  /*     padding: 20px 45px 20px 20px; */
+  /*   padding-left: 30px; */
+  }
+  
+  .wrapper .register-link{
+    font-size:15px;
+    text-align:center;
+  /*   font-weight:600; */
+    margin-top: 20px;
+  }
+  .register-link p a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+  }
+  .register-link p a:hover{
+    text-decoration:underline;
+  }
